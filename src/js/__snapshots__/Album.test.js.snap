@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Album /> should render an album with tracks and 'Hide tracks' text 1`] = `
+<Album__Item>
+  <Album__Title>
+    Hello (1984)
+  </Album__Title>
+  <Album__CoverWrapper>
+    <Album__CoverImg
+      alt="'Hello' album cover"
+      src="url"
+    />
+    <Album__Overlay>
+      <Album__OverlayItem
+        onClick={[Function]}
+        type="button"
+      >
+        Hide tracks
+      </Album__OverlayItem>
+      <Album__OverlayItem
+        onClick={[Function]}
+        type="button"
+      >
+        Zoom cover
+      </Album__OverlayItem>
+    </Album__Overlay>
+  </Album__CoverWrapper>
+  <Album__Tracks>
+    <Track
+      key="0"
+      name="blah"
+      number={1}
+    />
+    <Track
+      key="1"
+      name="blah-blah"
+      number={2}
+    />
+  </Album__Tracks>
+</Album__Item>
+`;
+
+exports[`<Album /> should render an album without tracks and 'Show tracks' text 1`] = `
+<Album__Item>
+  <Album__Title>
+    Hello (1984)
+  </Album__Title>
+  <Album__CoverWrapper>
+    <Album__CoverImg
+      alt="'Hello' album cover"
+      src="url"
+    />
+    <Album__Overlay>
+      <Album__OverlayItem
+        onClick={[Function]}
+        type="button"
+      >
+        Show tracks
+      </Album__OverlayItem>
+      <Album__OverlayItem
+        onClick={[Function]}
+        type="button"
+      >
+        Zoom cover
+      </Album__OverlayItem>
+    </Album__Overlay>
+  </Album__CoverWrapper>
+  <Album__Tracks />
+</Album__Item>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Track /> should render a track with name and number 1`] = `
+<Track__Item>
+  <Track__Button
+    onClick={[Function]}
+    type="button"
+  >
+    1. Hello
+  </Track__Button>
+</Track__Item>
+`;

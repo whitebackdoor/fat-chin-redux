@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CoverZoom /> should render a cover zoom with name and coverUrl 1`] = `
+<CoverZoom__Inner>
+  <CoverZoom__Close
+    onClick={[Function]}
+    type="button"
+  />
+  <CoverZoom__Img
+    alt="'Hello' album cover"
+    src="url"
+  />
+</CoverZoom__Inner>
+`;
